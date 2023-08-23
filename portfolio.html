@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Poliana - Perfil</title>
+</head>
+
+<body>
+    <h1>Poliana Ferreira</h1>
+    <a href="https://www.linkedin.com/in/poliana-nascimento-ferreira/">Linkedin</a>
+    <br>
+    <img src="poliana.png" alt="Foto da Poliana" width="200px">
+    <hr>
+
+    <h2>Sobre Mim</h2>
+    <p>Poliana é mestre em ciência da computação (UFABC), e graduada em análise e desenvolvimento de sistemas (FIAP) e
+        letras português-inglês (UNICSUL). É pesquisadora na área de aprendizado de máquina, computação quântica,
+        wearables e informática na educação, com diversas publicações e prêmios na área. Atua também como professora nas
+        áreas de ciência de dados, estrutura de dados, IA, IoT e robótica. Além disso, é cofundadora, coordenadora e
+        palestrante da comunidade de tecnologia AIGirls, promovendo o protagonismo de mulheres na inteligência
+        artificial.
+    </p>
+
+    <hr>
+
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Origami</li>
+        <li>Música</li>
+        <li>Ver séries</li>
+    </ul>
+
+    <hr>
+    <h2>Educação</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Instituição</th>
+                <th>Ano</th>
+                <th>Curso</th>
+                <th>Nível</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FIAP</td>
+                <td>2018</td>
+                <td>ADS</td>
+                <td>Graduação</td>
+            </tr>
+            <tr>
+                <td>UFABC</td>
+                <td>2022</td>
+                <td>Ciência da Computação</td>
+                <td>Mestrado</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <hr>
+    <h2>Contato</h2>
+    <form method="POST" action="/contato">
+        <div>
+            <label id="nome">Nome:</label>
+            <input type="text" id="nome" required>
+        </div>
+        <div>
+            <label id="email">E-mail:</label>
+            <input type="email" id="email" required>
+        </div>
+        <div>
+            <label id="mensagem">Mensagem:</label>
+            <br>
+            <textarea type="text" id="mensagem" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
