@@ -1,0 +1,17 @@
+body{
+    margin-left: 25%;
+    margin-right:25%;
+    font-family: sans-serif;
+}
+
+#inicio{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    margin-top: 50px;
+}
