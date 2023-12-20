@@ -1,0 +1,13 @@
+.inicio{
+    margin-top: 60px;
+    background: url("../aula2/img/background7.avif") no-repeat center center fixed;    
+    background-size: cover;
+}
+
+section{
+    height: calc(100vh - 115px);
+}
+
+main{
+    margin-bottom: 55px;
+}

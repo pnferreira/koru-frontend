@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="demo">Teste</p>
+    <button onclick="api(mostrar_logradouro)">Logradouro</button>
+    <button onclick="api(mostrar_cidade_estado)">Cidade e estado</button>
+
+
+    <script>
+
+        function mostrar_logradouro(dados) {
+            var dados_obj = JSON.parse(dados);
+            document.getElementById("demo").innerHTML = dados_obj.logradouro
+        }
+
+        function mostrar_cidade_estado(dados){
+            var dados_obj = JSON.parse(dados);
+            var string_texto = dados_obj.localidade + "/" + dados_obj.uf
+
+            document.getElementById("demo").innerHTML = string_texto
+        }
+
+
+        function api(callback) {
+            var xhttp = new XMLHttpRequest();
+
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    callback(this.responseText);
+                }
+            }
+
+            xhttp.open("GET", "https://opencep.com/v1/45028170");
+            xhttp.send();
+        }
+
+
+
+    </script>
+</body>
+
+</html>

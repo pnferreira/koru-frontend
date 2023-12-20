@@ -1,0 +1,125 @@
+{
+    "frontEndDevelopmentFacts": [
+      {
+        "id": 1,
+        "fact": "HTML é a base de qualquer página da web e significa HyperText Markup Language."
+      },
+      {
+        "id": 2,
+        "fact": "CSS é usado para estilizar elementos escritos em HTML."
+      },
+      {
+        "id": 3,
+        "fact": "JavaScript é uma linguagem de programação usada para adicionar interatividade às páginas da web."
+      },
+      {
+        "id": 4,
+        "fact": "O desenvolvimento front-end é focado na parte da aplicação que os usuários veem e interagem."
+      },
+      {
+        "id": 5,
+        "fact": "Frameworks como React, Vue e Angular ajudam a criar interfaces de usuário ricas e interativas."
+      },
+      {
+        "id": 6,
+        "fact": "O Responsive Web Design permite que páginas da web se adaptem a diferentes tamanhos de tela."
+      },
+      {
+        "id": 7,
+        "fact": "A Acessibilidade na web é crucial para tornar sites acessíveis a pessoas com deficiências."
+      },
+      {
+        "id": 8,
+        "fact": "O pré-processamento CSS com ferramentas como SASS ou LESS facilita a escrita de estilos mais complexos."
+      },
+      {
+        "id": 9,
+        "fact": "As Progressive Web Apps (PWAs) permitem que sites funcionem mais como aplicativos nativos."
+      },
+      {
+        "id": 10,
+        "fact": "O TypeScript é um superset de JavaScript que adiciona tipagem estática à linguagem."
+      },
+      {
+        "id": 11,
+        "fact": "O Git é uma ferramenta essencial para o controle de versão no desenvolvimento de projetos."
+      },
+      {
+        "id": 12,
+        "fact": "APIs RESTful e GraphQL são comumente usadas para integrar o front-end com back-end."
+      },
+      {
+        "id": 13,
+        "fact": "Ferramentas de build como Webpack e Gulp ajudam a otimizar e melhorar o processo de desenvolvimento."
+      },
+      {
+        "id": 14,
+        "fact": "O conceito de Mobile First enfatiza a criação de designs para dispositivos móveis antes dos desktops."
+      },
+      {
+        "id": 15,
+        "fact": "Flexbox e Grid são técnicas modernas de layout CSS que facilitam o design de interfaces complexas."
+      },
+      {
+        "id": 16,
+        "fact": "A performance do site é um aspecto crítico, afetando tanto a experiência do usuário quanto o SEO."
+      },
+      {
+        "id": 17,
+        "fact": "As animações CSS podem melhorar a experiência do usuário ao tornar as interfaces mais dinâmicas."
+      },
+      {
+        "id": 18,
+        "fact": "A metodologia BEM (Block Element Modifier) ajuda a criar códigos CSS mais organizados e reutilizáveis."
+      },
+      {
+        "id": 19,
+        "fact": "O conceito de Progressive Enhancement foca na criação de experiências básicas que melhoram conforme as capacidades do navegador."
+      },
+      {
+        "id": 20,
+        "fact": "As Single Page Applications (SPAs) carregam uma única página HTML e atualizam o conteúdo dinamicamente."
+      },
+      {
+        "id": 21,
+        "fact": "O JAMstack é uma arquitetura moderna que utiliza JavaScript, APIs e Markup para criar sites."
+      },
+      {
+        "id": 22,
+        "fact": "O uso de variáveis CSS permite um maior controle e reutilização de estilos em um site."
+      },
+      {
+        "id": 23,
+        "fact": "Testes automatizados, como testes de unidade e integração, são importantes para garantir a qualidade do código."
+      },
+      {
+        "id": 24,
+        "fact": "A integração contínua e a entrega contínua (CI/CD) automatizam o processo de desenvolvimento e implantação."
+      },
+      {
+        "id": 25,
+        "fact": "Ferramentas de linting como ESLint ajudam a manter a qualidade e a consistência do código JavaScript."
+      },
+      {
+        "id": 26,
+        "fact": "O desenvolvimento front-end também envolve um bom entendimento de UX/UI para criar interfaces amigáveis."
+      },
+      {
+        "id": 27,
+        "fact": "A renderização do lado do servidor (SSR) pode melhorar o SEO e o tempo de carregamento inicial das páginas."
+      },
+      {
+        "id": 28,
+        "fact": "O uso de CDN (Content Delivery Network) pode acelerar o carregamento de recursos em um site."
+      },
+      {
+        "id": 29,
+        "fact": "Ferramentas de otimização de imagens são importantes para melhorar a performance e a velocidade de carregamento."
+      },
+      {
+        "id": 30,
+        "fact": "O desenvolvimento front-end está em constante evolução, com novas ferramentas e práticas emergindo regularmente."
+      }
+    ]
+  }
+  

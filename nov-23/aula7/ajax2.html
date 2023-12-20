@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        $.ajax({
+            url: "https://opencep.com/v1/4502810",
+            type: "GET",
+            dataType: "json",
+            success: function(dados){
+                console.log(dados);
+            },
+            error: function(){
+                console.log("Erro");
+            }
+        });
+    </script>
+</body>
+</html>

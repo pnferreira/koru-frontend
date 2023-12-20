@@ -1,0 +1,42 @@
+h1{
+    color:blue;
+    font-size: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: rgb(9, 61, 54);
+    font-size: 100px;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+div{
+    margin:50px;
+    padding:50px;
+    border: 50px solid black;
+    background-color: white;
+}
+
+body {
+    background-image: url(./backgroud.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto{
+    text-align: center;
+}
+
+p.texto{
+    font-size: 50px;
+}
+
+#texto2{
+    color:black;
+}
+
+div p {
+    color:red;
+}
+

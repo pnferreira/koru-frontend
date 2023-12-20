@@ -1,0 +1,314 @@
+/* Style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; /* Adjust as needed */
+    z-index: 1000;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 40px; /* Adjust based on actual image size */
+    margin-right: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 30px; /* Adjust spacing between links as needed */
+    font-size: 16px;
+}
+
+
+
+main {
+    margin-top: 60px; /* Adjust this based on the navbar height */
+}
+
+
+
+section {
+    height: 85vh; /* Full viewport height */
+}
+
+.section {
+    background: url('./img/background7.avif') no-repeat center center fixed; 
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.section .social-media {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0; /* Adjust padding to space out icons vertically */
+        background-color: #10053d; /* Example background color */
+    }
+    
+    .section .social-media .icon {
+        color: white; /* Icon color */
+        font-size: 24px; /* Icon size */
+        display: block; /* Stack icons vertically */
+        margin-bottom: 10px; /* Space between icons */
+        text-align: center;
+    }
+    
+
+    .section .social-media a {
+    display: block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.section .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.section .content p {
+    font-size: 1.2em;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+
+.section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+
+.about-section {
+    background-color: #f3f1f1; /* or any other color you prefer */
+    padding: 40px 0; /* top and bottom padding */
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px; /* or any size you prefer */
+    text-transform: uppercase;
+    margin-bottom: 1em; /* space below the section title */
+}
+
+.container {
+    width: 80%; /* or any width you prefer */
+    margin: 0 auto; /* center the container */
+    display: flex; /* use flexbox for layout */
+    justify-content: space-between; /* add space between the columns */
+}
+
+.personal-details, .skills {
+    flex: 1; /* both columns will take equal width */
+    padding: 0 20px; /* add padding to the sides */
+}
+
+.personal-details h3, .skills h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; /* larger font size for subheadings */
+}
+
+.personal-details p, .skills ul {
+    font-size: 1em; /* font size for content */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #10053d;
+    color: #fff;
+    border: 4px solid #10053d;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 20px; /* space above the button */
+}
+hr{
+    margin-top: -20px;
+    width: 50px;
+    border: 4px solid #10053d;
+  border-radius: 5px;
+}
+.skills ul {
+    list-style-type: none; /* remove default list styling */
+    padding: 0; /* remove default padding */
+}
+
+.skills li {
+    background-color: #e7e7e7; /* light grey background for skills */
+    margin-bottom: 10px; /* space between skill items */
+    padding: 5px 10px; /* padding inside skill items */
+}
+
+
+#foto-poliana {
+    text-align: center;
+    margin-top: 30px;
+}
+#foto-poliana img{
+    width: 200px;
+    border-radius: 200px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.projects-section {
+    padding: 40px 0; /* top and bottom padding */
+    background-color: #fdfcfc; /* light background for the projects section */
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px; /* or any size you prefer */
+    text-transform: uppercase;
+    margin-bottom: 1em; /* space below the section title */
+}
+
+.projects-container {
+    width: 80%;
+    margin: 0 auto; /* center the container */
+    display: flex; /* use flexbox for layout */
+    flex-wrap: wrap; /* allow wrapping for smaller screens */
+    justify-content: space-between; /* add space between the project items */
+    gap: 20px; /* space between items */
+}
+
+.project-item {
+    flex-basis: 300px; 
+    background-color: #ffffff; /* white background for project items */
+    padding: 20px; /* padding inside each project item */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle shadow for depth */
+    text-align: justify;
+}
+
+.project-image {
+    width: 100%; /* make the image fill the container */
+    height: auto; /* maintain aspect ratio */
+    margin-bottom: 1em; /* space below the image */
+}
+
+.project-title {
+    font-size: 1.2em; /* title size */
+    margin-bottom: 0.5em; /* space below the title */
+}
+
+.project-description {
+    font-size: 1em; /* description text size */
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.contact-section {
+    background: url('./img/background7.avif') no-repeat center center fixed; 
+    background-size: cover;
+    padding: 60px 0; /* top and bottom padding */
+    text-align: left;
+}
+
+.contact-section .section-title {
+    color: #fff; /* white color for the title */
+    font-size: 36px; /* or any size you prefer */
+    text-transform: uppercase;
+    margin-bottom: 1em; /* space below the section title */
+}
+
+.contact-container {
+    width: 50%; /* or any width you prefer */
+    margin: 0 auto; /* center the container */
+    background-color: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+    padding: 40px; /* padding inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px; /* space between form fields */
+    width: 100%;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px; /* space between label and input field */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px); /* make the input fields full width */
+    padding: 10px; /* padding inside input fields */
+    border: 1px solid #ccc; /* border color */
+    border-radius: 4px; /* rounded corners */
+    font-family: inherit;
+}
+
+.contact-form textarea {
+    resize: vertical; /* allow vertical resizing */
+}
+
+.submit-button {
+    padding: 15px 30px;
+    background-color: #10053d;; /* Bootstrap primary button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px; /* space above the submit button */
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    height: 65px; /* Adjust as needed */
+    font-family: inherit;
+    text-align: center;
+    position: fixed;
+}
+footer p{
+    padding-top: 8px;
+}

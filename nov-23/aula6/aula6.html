@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .botao-px{
+            width: 100%;
+            max-width: 300px;
+        }
+        .texto-px{
+            font-size: 16px;
+        }
+
+        .div-porcentagem{
+            background-color: aqua;
+            width: 50%;
+        }
+
+        .primeira-div{
+            display: grid;
+            grid-template-columns: 1fr min(100%, 600px) 1fr;
+        }
+
+        .segunda-div{
+            grid-column: 1;
+            background-color: brown;
+        }
+
+        .alguma-div{
+            grid-column: 2;
+            background-color: red;
+        }
+
+        .botao-porcentagem{
+            width: 20%;
+        }
+
+        .paragrafo-rem{
+            font-size: 2rem;
+        }
+        .paragrafo-em{
+            font-size: 2em;
+        }
+
+        .div-vh{
+            height: 100vh;
+            background-color: green;
+        }
+
+        .div-vw{
+            width: 50vw;
+            background-color: red;
+        }
+        .div-100{
+            width: 50%;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Design Responsivo</h1>
+    <h2>Pixeis</h2>
+    <button class="botao-px">Clique</button>
+
+    <p class="texto-px">Teste de pixel vs outros</p>
+    <p>Teste sem ajuste da fonte</p>
+
+    <h2>Porcentagens</h2>
+    <div class="div-porcentagem">Oie!</div>
+
+
+    <div class="primeira-div">
+        <div class="segunda-div">algooo</div>
+        <div class="alguma-div">algooo</div>
+    </div>
+
+
+    <button class="botao-porcentagem">Clique aqui</button>
+    <button class="botao-porcentagem">Clique aqui</button>
+
+    <h2>REM</h2>
+    <div class="paragrafo-rem">Um texto para ser aumentado. 
+        <div class="paragrafo-em">Outro texto</div>
+    </div>
+
+    <h2>VW e VH</h2>
+    <div class="div-vw">
+        oioi
+    </div>
+    <div class="div-100">
+        oioi
+    </div>
+    <div class="div-vh">
+        oioi
+    </div>
+    
+
+
+
+
+
+
+</body>
+</html>
