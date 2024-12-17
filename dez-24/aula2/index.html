@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Poliana Ferreira e turma da Linha Uni/Korú"> 
+        <title>Feijão com Arroz</title>
+        <link rel="icon" href="imgs/restaurante.jpg" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1>Restaurante Feijão com Arroz</h1>
+            <nav>
+                <a href="reviews.html" title="Veja avaliações sobre o restaurante">Avaliações</a><br>
+                <a href="#menu">Menu</a>
+                <a href="#pedido">Pedido</a>
+                <br>
+            </nav>
+            
+            <!--URL Externa-->
+            <img src="https://sabores-new.s3.amazonaws.com/public/2024/11/arroz-e-feijao.jpg" alt="Imagem de um feijão com arroz" width="400">
+            <br>
+            <!--URL Interna-->
+            <img src="imgs/restaurante.jpg" alt="Imagem de um restaurante com várias cadeiras e mesas" width="200">
+        </header>
+        
+        <main>
+            <section id="menu">
+                <h2>Nosso Menu</h2>
+                <p>Escolha o que desejar e aproveite!</p>
+                <p><i>Todos os pratos acompanham arroz e feijão</i></p>
+                <ul>
+                    <li><strong>Prato Principal</strong></li>
+                        <ul>
+                            <li>Carne</li>
+                            <li>Frango</li>
+                            <li>Peixe</li>
+                        </ul>
+                    <li><strong>Bebidas</strong></li>
+                        <ul>
+                            <li>Suco</li>
+                            <li>Refrigerante</li>
+                            <li>Água</li>
+                        </ul>
+                    <li><strong>Sobremesa</strong> (Surpresa)</li>
+                </ul>
+            </section>
+    
+            <section id="pedido">
+                <h2>Faça seu pedido</h2>
+                <form>
+                    <div>
+                       <label for="nome">Nome: </label>
+                       <input type="text" id="nome" name="nome" required minlength="4"> 
+                    </div>
+                    <div>
+                        <label for="email">E-mail: </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="prato">Escolha seu prato:</label>
+                        <select id="prato" name="prato">
+                            <option value="carne">Carne</option>
+                            <option value="frango">Frango</option>
+                            <option value="peixe">Peixe</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Escolha sua bebida:</label><br>
+                        <input type="radio" id="suco" name="bebida" value="suco">
+                        <label for="suco">Suco</label><br>
+                        <input type="radio" id="refri" name="bebida" value="refri">
+                        <label for="refri">Refrigerante</label><br>
+                        <input type="radio" id="agua" name="bebida" value="agua">
+                        <label for="agua">Água</label><br>
+                    </div>
+                    <div>
+                        <label>Complementos:</label><br>
+                        <input type="checkbox" id="sobremesa" name="sobremesa">
+                        <label for="sobremesa">Adicionar sobremesa</label><br>
+                        <input type="checkbox" id="talheres" name="talheres">
+                        <label for="talheres">Deseja talheres descartáveis</label>
+                    </div>
+                    <div>
+                        <label for="comentarios">Comentários: </label><br>
+                        <textarea id="comentarios" name="comentarios" placeholder="Observações sobre o seu pedido..." maxlength="100"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            <br>
+        </main>
+
+        <aside>
+            <h2>Prato do dia!</h2>
+            <p>Imagem e descrição do prato do dia.</p>
+        </aside>
+        
+        <footer>
+            <a href="https://www.google.com.br/maps/" target="_blank">Onde é?</a>
+            <br>
+            <a href="mailto:poliana.nferreira@gmail.com">Envie um e-mail</a>
+            <p> &copy; 2024 Restaurante Feijão com Arroz</p>
+        </footer>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
