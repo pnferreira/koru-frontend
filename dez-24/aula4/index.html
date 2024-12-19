@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de conteúdo CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Posicionamento de conteúdo CSS</h1>
+    <h2>Sem definir display / Display block</h2>
+    <div class="pai">
+        <p id="filho1" class="filho">Filho 1</p>
+        <p id="filho2" class="filho">Filho 2</p>
+        <p id="filho3" class="filho">Filho 3</p>
+    </div>
+    <h2>Display Inline Block</h2>
+    <div class="pai">
+        <div class="filho inlineBlock">Inline-Block</div>
+        <div class="filho inlineBlock">Another Inline-Block</div>
+        <div class="filho inlineBlock">Another Inline-Block Another Inline-Block Another Inline-Block Another Inline-Block Another Inline-Block Another Inline-Block </div>
+
+    </div>
+    <h2>Display Inline</h2>
+    <div class="pai">
+        <div class="filho inline">Inline</div>
+        <div class="filho inline">Another Inline</div>
+        <div class="filho inline">Another Inline Another Inline Another Inline Another Inline</div>
+
+    </div>
+
+    <h2>Display None</h2>
+    <div class="pai">
+        <div class="filho inlineBlock">Inline-Block</div>
+        <div class="filho inlineBlock">Another Inline-Block</div>
+        <div class="filho none">Another Inline-Block Another Inline-Block Another Inline-Block Another Inline-Block Another Inline-Block Another Inline-Block </div>
+
+    </div>
+
+    <h2>Display Flex</h2>
+    <div class="pai flexbox">
+        <div class="filho">Filho 1</div>
+        <div class="filho">Filho 2</div>
+        <div class="filho" id="filho3">Filho 3</div>
+        <div class="filho">Filho 4</div>
+        <div class="filho">Filho 5</div>
+
+    </div>
+    <h2>Display Grid</h2>
+    <div class="pai grid">
+        <div class="filho">Filho 1</div>
+        <div class="filho">Filho 2</div>
+        <div class="filho">Filho 3</div>
+        <div class="filho">Filho 4</div>
+        <div class="filho">Filho 5</div>
+
+    </div>
+    <h2>Display Grid - Area</h2>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="menu">Menu</div>
+        <div class="conteudo">Conteúdo</div>
+        <div class="footer">Footer</div>
+    </div>
+    <h2>Display Grid - Area</h2>
+    <div class="container2">
+        <div class="filho" id="filho1">Filho 1</div>
+        <div class="filho">Filho 2</div>
+        <div class="filho">Filho 3</div>
+        <div class="filho">Filho 4</div>
+        <div class="filho">Filho 5</div>
+    </div>
+    
+
+
+</body>
+</html>
