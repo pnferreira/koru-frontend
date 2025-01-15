@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 1rem;
+        }
+
+        .grid-container{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            margin: 0;
+        }
+
+        .grid-item{
+            flex: 1 1 25%;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        @media only screen and (max-width: 900px){
+            .grid-item{
+                flex: 1 1 50%;
+                
+            }
+            .item-1 {order: 1;}
+            .item-2 {order: 2;}
+            .item-3 {order: 4;}
+            .item-4 {order: 3;}
+        }
+        @media only screen and (max-width: 600px){
+            .grid-item{
+                flex: 1 1 100%;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item item-1">!!!!!</div>
+        <div class="grid-item item-2">Texto</div>
+        <div class="grid-item item-3">Texto</div>
+        <div class="grid-item item-4">!!!!!</div>
+    </div>
+</body>
+</html>

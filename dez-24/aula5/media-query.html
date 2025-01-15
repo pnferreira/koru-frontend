@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        p {
+            font-size: 1.5rem;        
+        }
+
+        @media only screen and (max-width: 600px) {
+            body{
+                background-color: blue;
+            }
+        }
+
+        @media only screen and (min-width:600px) {
+            body{
+                background-color: red;
+            }
+        }
+        @media only screen and (min-width:768px) {
+            body{
+                background-color: yellow;
+            }
+        }
+        @media only screen and (min-width:992px) {
+            body{
+                background-color: rgb(208, 0, 255);
+            }
+
+            p {
+                font-size: 5rem;
+            }
+        }
+        @media only screen and (min-width:1200px) {
+            body{
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    Olá, mundo! 
+    <p>Oooooooooi</p>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+
+</head>
+<body>
+<p style="font-size: 16px;">
+    <strong>Px</strong> – Um pixel do display. Ideal para definir tamanhos de texto em interfaces que requerem consistência absoluta, como botões ou pequenos rótulos, e para definir dimensões fixas de imagens e divs.
+</p>
+
+<p style="font-size: 1.5mm;">
+    <strong>Mm, cm, in</strong> – Milímetros, centímetros, polegadas. Raramente usados na web, mas podem ser úteis para projetos que precisam imprimir exatamente o mesmo tamanho em diferentes mídias, como em banners gráficos ou cabeçalhos de documentos.
+</p>
+
+<p style="font-size: 12pt;">
+    <strong>Pt</strong> – Ponto (1/72 de uma polegada). Não recomendado para web, pois pode causar inconsistências, mas ainda usado em estilos de texto para impressão.
+</p>
+
+<p style="font-size: 16pc;">
+    <strong>Pc</strong> – Pica (12 pontos). Similar ao ponto, adequado para design gráfico impresso, mas inconsistente e raramente usado na web.
+</p>
+
+<p style="font-size: 2em;">
+    <strong>Em</strong> – Relativo ao tamanho da fonte do elemento pai. Ideal para design responsivo em textos e componentes de interface, como menus e painéis laterais, onde a escalabilidade é necessária.
+</p>
+
+<p style="font-size: 2rem;">
+    <strong>Rem</strong> – Relativo ao tamanho da fonte do elemento raiz (usualmente o `html`). Excelente para definir tamanhos de fonte base que se mantêm consistentes em toda a página, útil para textos e espaçamentos gerais.
+</p>
+
+<div style="font-size: 20px; border: 1px solid black; padding: 10px;">
+    Pai com font-size: 20px
+    <div style="font-size: 1.5em; border: 1px solid red; margin-bottom: 10px;">
+        Usando EM: 1.5em do tamanho do pai (30px)
+        <div style="font-size: 1.5em; border: 1px solid green;">
+            Aninhado com EM: 1.5em do pai 
+        </div>
+    </div>
+    <div style="font-size: 1.5rem; border: 1px solid blue;">
+        Usando REM: 1.5rem do tamanho da raiz (24px)
+    </div>
+</div>
+
+<p style="font-size: 5vw;">
+    <strong>Vw</strong> – Porcentagem da largura da viewport. Perfeito para layouts que precisam se ajustar dinamicamente ao redimensionar a janela, como imagens de fundo e seções de largura total.
+</p>
+
+<p style="font-size: 5vh;">
+    <strong>Vh</strong> – Porcentagem da altura da viewport. Ideal para criar elementos que se ajustam à altura da tela, como banners de tela cheia ou áreas de destaque vertical.
+</p>
+
+
+
+</body>
+</html>
