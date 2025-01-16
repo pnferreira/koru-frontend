@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo Flexbox</title>
+<style>
+  .container {
+    display: flex;
+    width: 100%;
+    height: 200px; /* Altura do contêiner para melhor visualização */
+    background-color: lightgrey;
+  }
+  .item {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  .item1 {
+    background-color: blue;
+    flex: 1 1 20%; /* Cresce mais, encolhe normal, base 20% */
+  }
+  .item2 {
+    background-color: red;
+    flex: 1 1 20%; /* Cresce normal, encolhe mais, base 30% */
+  }
+  .item3 {
+    background-color: green;
+    flex: 1 1 20%; /* Cresce normal, encolhe normal, base 50% */
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+</body>
+</html>
